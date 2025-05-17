@@ -45,7 +45,7 @@ export default async function UserPage({ params }) {
     try {
       // Fetch the HTML content from the API endpoint.
       const res = await fetch(
-        `http://localhost:8080/api/user?username=${encodeURIComponent(username)}`,
+        `https://910fkqei24.execute-api.ap-south-1.amazonaws.com/api/user?username=${encodeURIComponent(username)}`,
         { cache: "no-store" }
       );
      

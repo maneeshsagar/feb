@@ -49,7 +49,7 @@ export default function Dashboard() {
       // 2. Call the backend logout API (Optional: pass token if needed)
       try {
          // Use fetch or axios
-         const backendLogoutResponse = await fetch("http://localhost:8080/api/auth/logout", {
+         const backendLogoutResponse = await fetch("https://910fkqei24.execute-api.ap-south-1.amazonaws.com/api/auth/logout", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

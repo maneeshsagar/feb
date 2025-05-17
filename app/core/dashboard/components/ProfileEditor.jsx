@@ -157,7 +157,7 @@ export default function ProfileEditor({ user }) {
       console.log("handleSave: Attempting axios.post to /api/profile with JSON payload...");
       // Send the payload as JSON
       const response = await axios.post(
-          'http://localhost:8080/api/profile', // URL
+          'https://910fkqei24.execute-api.ap-south-1.amazonaws.com/api/profile', // URL
           payload,        // Data (JSON object)
           {               // Config object
               headers: {
